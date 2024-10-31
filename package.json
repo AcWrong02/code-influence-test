@@ -1,0 +1,23 @@
+{
+  "name": "my-ts-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "run:script": "tsx example/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "ts-morph": "^24.0.0"
+  }
+}
